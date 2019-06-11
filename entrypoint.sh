@@ -1,7 +1,7 @@
 #!/bin/sh
 
-: ${SLEEP_LENGTH:=2}
-: ${TIMEOUT_LENGTH:=300}
+: ${SLEEP_LENGTH:=15}
+: ${TIMEOUT_LENGTH:=600}
 
 wait_for() {
   START=$(date +%s)
